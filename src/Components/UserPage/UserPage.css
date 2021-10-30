@@ -1,0 +1,67 @@
+.UserPage {
+    text-align: center;
+}
+
+.userProfile, .userModif {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkcyan;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: start;
+    
+}
+
+.userProfile button, .userModif button {
+    margin-top: 20px;
+    background-color: white;
+    width: max-content;
+    margin: auto; 
+    margin-top: 0.35rem;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: darkcyan 3px solid;
+    height: 30px;
+    font-weight: bold;
+    color: darkcyan;
+    margin-bottom: 0.35rem;
+
+
+}
+.userProfile button:hover, .userModif button:hover{
+    background-color: darkcyan;
+    color: white;
+    border-color: white;
+}
+
+.titreModif {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.profil-line{
+    display: flex;
+    justify-content: space-between;
+}
+.userProfile{
+    padding: 50px;
+}
+
+.modif-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.modif-line input{
+    text-align: center;
+}
+
+.userModif{
+    padding: 30px;
+}

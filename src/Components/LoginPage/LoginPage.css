@@ -1,0 +1,51 @@
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container{
+    width: 30%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container h2{
+    margin: 40px;
+}
+
+.login-box{
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-box button{
+    margin-top: 20px;
+    background-color: white;
+    min-width: 100px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: darkcyan 3px solid;
+    height: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+.login-box button:hover{
+    background-color: darkcyan;
+    color: white;
+    border-color: white;
+}

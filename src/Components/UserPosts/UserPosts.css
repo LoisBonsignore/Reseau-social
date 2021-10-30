@@ -1,0 +1,28 @@
+.UserPosts{
+    text-align: center;
+    
+    width: max-content;
+    margin: auto;
+    margin-top: 3em;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 0.5rem; 
+}
+
+.titrePosts {
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    padding: 1rem;
+    
+    }
+
+.newDiv {
+    background-color: white;
+    padding: 0.25rem;
+    border: 5px solid darkcyan;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}

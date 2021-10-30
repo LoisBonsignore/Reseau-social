@@ -1,0 +1,117 @@
+.post-container{
+    width: 100%;
+}
+
+.post-card{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    border: 3px solid darkcyan;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+}
+.post-card h2{
+    margin: 0;
+}
+.post-card p{
+    margin: 0;
+}
+.title-post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 8px 8px 0 0;
+}
+.user{
+    position: absolute;
+    right: 10px;
+}
+
+.like-line{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    background-color: lightblue;
+}
+.body-post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.body-post p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.boutton-like {
+    background-color: white;
+    min-width: 100px;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: darkcyan 3px solid;
+    height: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.boutton-like:hover{
+    background-color: darkcyan;
+    color: white;
+    border-color: white;
+}
+.commentaire-box{
+    width: 45%;
+    margin: auto;
+    border: 3px solid darkcyan;
+    border-radius: 0 0 10px 10px;
+    /* transform: translateX(30px); */
+
+}
+.commentaire-box p{
+    margin: 0;
+}
+
+.comment-add{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: lightblue;
+}
+.comment-add input{
+    width: 50%;
+    text-align: center;
+}
+.comment-add button{
+    background-color: white;
+    min-width: 100px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: darkcyan 3px solid;
+    height: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+.comment-add button:hover {
+    background-color: darkcyan;
+    color: white;
+    border-color: white;
+}
+
+
+.comment-content{
+    border-top: 2px solid darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
